@@ -1,0 +1,286 @@
+<html>
+<head>
+<title>SimuSaber 3° y 5°</title>
+<style type="text/css">
+        body {
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        background-size: 100%;
+        overflow: hidden;
+        background-position: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        font-family: centaur;
+        font-size: 400%;
+        width: 500px;
+        font-weight: normal;
+        text-shadow: 2px 2px 4px rgb(184, 184, 184);
+        padding: 60px;
+        padding-bottom: 10px;
+        color: #000;
+        position: relative;
+        top: 20px;
+        left: 300px;
+    }
+    h2 {
+        font-family: centaur;
+        font-size: 300%;
+        font-weight: normal;
+        padding: 20px;
+        padding-bottom: 10px;
+        color: #000;
+        position: relative;
+        top: 10px;
+        left: 200px;
+    }
+    b {
+        width: 100px; 
+        height: 100px;
+        background-color: white;
+        margin: 20px;
+        display: inline-block;
+    }
+    b.text {
+        width: 520px; 
+        height: 180px; 
+        background-color: #24e35e;
+        margin: 20px;
+        display: inline-block; 
+        position: relative;
+        top: -350px;
+        left: 200px;
+    }
+    b.textc {
+        width: 400px; 
+        height: 120px; 
+        background-color: #24e35e;
+        margin: 20px;
+        display: inline-block; 
+        position: relative;
+        top: -980px;
+        left: 940px;
+        }
+    b.botomlo {
+        width: 180px; 
+        height: 30px; 
+        background-color: #24e3c9;
+        margin: 20px;
+        display: inline-block; 
+        position: relative;
+        top: -840px;
+        left: 1200px;
+        -moz-box-shadow: 2px 2px 2px #777777;
+        -webkit-box-shadow: 2px 2px 2px #777777;
+        box-shadow: 2px 2px 2px #777777;
+   } 
+    b.botomreg {
+        width: 180px; 
+        height: 30px; 
+        background-color: #24e3c9;
+        margin: 20px;
+        display: inline-block; 
+        position: relative;
+        top: -910px;
+        left: 1390px;
+        -moz-box-shadow: 2px 2px 2px #777777;
+        -webkit-box-shadow: 2px 2px 2px #777777;
+        box-shadow: 2px 2px 2px #777777;
+    }
+    b.botoneraone {
+        width: 160px;
+        height: 50px;
+        background-color: #28dffd;
+        margin: 20px;
+        display: block;
+        position: relative;
+        top: -310px;
+        left: 780px;
+        border: 1px;
+    }
+    b.botoneratwo {
+        width: 160px;
+        height: 50px;
+        background-color: #34faa9;
+        margin: 20px;
+        display: block;
+        position: relative;
+        top: -380px;
+        left: 940px;
+        border: 1px;
+    }
+    b.botonerathree {
+        width: 160px;
+        height: 50px;
+        background-color: #28dffd;
+        margin: 20px;
+        display: block;
+        position: relative;
+        top: -450px;
+        left: 1100;
+        border: 1px;
+    }
+    b.botonerafour {
+        width: 160px;
+        height: 50px;
+        background-color: #34faa9;
+        margin: 20px;
+        display: block;
+        position: relative;
+        top: -520px;
+        left: 1260px;
+        border: 1px;
+    }
+    b.botonerafive {
+        width: 160px;
+        height: 50px;
+        background-color: #28dffd;
+        margin: 20px;
+        display: block;
+        position: relative;
+        top: -590px;
+        left: 1420px;
+        border: 1px;
+    }
+    p.inicio {
+        font-family: bell MT;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        position: relative;
+        top: 15px;
+        left: 0px;
+        
+    }
+    p.registro {
+        font-family: bell MT;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        position: relative;
+        top: -8px;
+        left: 0px;
+        
+    }
+    p.caja {
+        font-family: bell MT;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 500px;
+        
+    }
+    p.cajan {
+        font-family: bell MT;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        position: relative;
+        top: 5px;
+        left: 10px;
+        width: 380px;
+        
+    }
+    p.position {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    g {
+        border: 5px solid #F6C66F;
+        padding: 10px;
+        width: 200px;
+        height: 70px;
+        display: inline-block;
+        margin: 20px;
+        background-color: #f6c66f;
+    }
+    p.botom {
+        font-family: bell MT;
+        font-size: 25px;
+        font-weight: normal;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    g.sumbit {
+        padding: 0px;
+        border-radius: 100px;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        position: relative;
+        top: -450px;
+        left: 320px;
+        -moz-box-shadow: 5px 5px 5px #777777;
+        -webkit-box-shadow: 5px 5px 5px #777777;
+        box-shadow: 5px 5px 5px #777777;
+    }
+    g.sombra {
+        -moz-box-shadow: 5px 5px 5px #777777;
+        -webkit-box-shadow: 5px 5px 5px #777777;
+        box-shadow: 5px 5px 5px #777777;
+    }
+    img {
+        width: 600px;
+        height: 350px;
+        -moz-box-shadow: 5px 5px 5px #24e3c9;
+        -webkit-box-shadow: 5px 5px 5px #24e3c9;
+        box-shadow: 5px 5px 5px #24e3c9;
+        position: relative;
+        top: -950px;
+        left: 850px;
+        border: 1px solid #000;
+    }
+    p.noticia {
+        font-family: bell MT;
+        font-size: 25px;
+        position: relative;
+        top: -950px;
+        left: 1090px;
+    }
+</style>
+</head>
+<body background="imagenes/fondo lapiz.png">
+
+    <h1>SimuSaber 3° y 5°</h1>
+
+    <h2>Bienvenidos</h2>
+
+    <b class="botoneraone"><p class="inicio"><a href="homepage.html">INICIO</a></p></b>
+
+    <b class="botoneratwo"><p class="inicio"><a href="eleccionprueba.html">Pruebas</a></p></b>
+
+    <b class="botonerathree"><p class="inicio">Apoyo</p></b>
+
+    <b class="botonerafour"><p class="inicio">Blog</p></b>
+
+    <b class="botonerafive"><p class="inicio"><a href="contacto.html">Contacto</a></p></b>
+
+    <b class="text">
+        <p class="caja">Desarrollar una página web que permita la interacción de los usuarios en la preparación y simulacros de pruebas saber grado 3 y 5, 
+            la cual cause un impacto significativo en el ámbito educativo, aprovechando la herramienta de la tecnología desde su auge actual, enfocando esta población infantil.
+        </p>
+    </b>
+
+    <b class="botomlo"><p class="registro"><a href="loginusuario.html">Mi cuenta</a></p></b>
+    
+
+    <b class="botomreg"><p class="registro"><a href="registro.html">Registrarse</a></p></b>
+
+    
+    <g class="sumbit"><p class="botom"><a href="eleccionprueba.html">Iniciar Pruebas</a></p></g>
+
+    <p>
+        <img src="imagenes/niños.jpg">
+    </p>
+
+    <p class="noticia"><u>NOTICIAS</u></p>
+
+    <b class="textc"><p class="cajan">Noticias acerca de las fechas de las pruebas.</p></b>
+</body>
+</html>

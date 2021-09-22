@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <style type="text/css">
+    body { background-image: url("imagenes/fondo\ lapiz.png"); overflow-x: hidden; width: 100%;}
+    h1 { color: #0c0c0c; 
+    text-align-last: center; 
+    font-family: century; 
+    padding: 1%; 
+    margin: 70px;
+    text-shadow: 2px 2px 4px #24E3C9;
+    }
+    img { width: 100%;}
+    .home {
+        position: absolute;
+        width: 180px;
+        height: 30px;
+        right: 10px;
+        top: 20px;
+        background-color: #24e3c9;
+        font-size: 16px;
+        font-family: century;
+        -moz-box-shadow: 2px 2px 2px #777777;
+        -webkit-box-shadow: 2px 2px 2px #777777;
+        box-shadow: 2px 2px 2px #777777;
+      }
+      input { 
+        font-size: 100%;
+        color: #524f4f;
+        border: 2px solid#24E3C9;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-position: 4px 9px;
+        display: block;
+        margin-bottom: 10px;
+      font-family: century;}
+      .form {
+      text-decoration: dotted;
+      font-size: 16px;
+      color: #777474;
+      padding-left:  398px ;
+      position: absolute;
+      top: 180px;
+      left: 300px;
+    }
+    .form input {
+      background-color: #ffffff;
+      border: 2px solid #24E3C9;
+      border-radius: 4px;
+      font-size: 18px;
+      padding: 5px;
+      font-family: century;
+      
+    }
+    .form input[type="submit"] {
+      position: absolute;
+      bottom: -50px;
+      left: 380px;
+      width: 120px;
+      background-color: #24E3C9;
+      border-bottom: solid #080808 4px;
+      font-family: century;
+      padding: 6px;
+      margin: 3px;
+      text-align: center;
+    }
+    .form input[type="submit1"] {
+      position: absolute;
+      bottom: -47px;
+      left: 510px;
+      width: 120px;
+      background-color: #24E3C9;
+      border-bottom: solid #080808 4px;
+      font-family: century;
+      margin: 1px auto 1px auto;
+      text-align: center;
+      float: unset;
+    }
+    .figure {
+      position: absolute;
+      top: 100px;
+      left: 80px;
+      margin: 20;
+      padding: 5px;
+      width: 450px;
+      height: 450px;
+      float: left;
+    }
+    .figure1 {
+      position: absolute;
+      top: 150px;
+      right: 80px;
+      margin: 18px;
+     padding: 15px;
+     width: 480px; 
+     height: 480px;
+     float: right;
+    }
+    </style>
+    <script language="javascript" type="text/javascript">
+      window.onload = function(){
+        document.getElementById("boton").addEventListener("click");
+      }
+      alert('Se ha registrado el nuevo usuario');
+    </script>
+</head>
+<body>
+    <button class="home"><a href="homepage.html">Inicio</a></button>
+<h1>Registro</h1>
+    <figure class="figure">
+      <img src="imagenes/estudiando.png"  />
+    </figure>
+    <figure class="figure1">
+    <img src="imagenes/niña.png"  />
+    </figure>
+    <form class="form">
+    <input type="text" class="text" value="Nombres" />
+    <input type="text" class="text" value="Apellidos" />
+    <input type="text" class="text" value="Nombre del usuario" />
+    <input type="date" value="Fecha de nacimiento" />
+    <input type="text" class="text" value="Correo" />
+    <input type="text" class="text" value="Contraseña" />
+    <input type="text" class="text" value="Confirmar Contraseña" />
+    <input type="text" class="text" value="Grado" />
+    <input type="submit"  id="boton"class="submit" onclick="alert" value="Registrarse"> 
+    <input type="submit1"  class="submit1" value="Cancelar"> 
+    </form>
+    
+</body>
+</html>
